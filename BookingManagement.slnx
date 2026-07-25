@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/BookingManagement.Api/BookingManagement.Api.csproj" />
+    <Project Path="src/BookingManagement.Application/BookingManagement.Application.csproj" />
+    <Project Path="src/BookingManagement.Domain/BookingManagement.Domain.csproj" />
+    <Project Path="src/BookingManagement.Infrastructure/BookingManagement.Infrastructure.csproj" />
+    <Project Path="src/BookingManagement.NotificationWorker/BookingManagement.NotificationWorker.csproj" />
+  </Folder>
+</Solution>

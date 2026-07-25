@@ -1,0 +1,12 @@
+## .NET
+bin/
+obj/
+*.user
+.vs/
+
+## Environment/secrets
+appsettings.Local.json
+*.env
+
+## OS
+.DS_Store
