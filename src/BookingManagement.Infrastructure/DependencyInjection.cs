@@ -27,6 +27,15 @@ public static class DependencyInjection
 
         services.AddGoogleSsoAuthentication(configuration);
         services.AddBookingServices(configuration);
+        services.AddAdminServices();
+
+        return services;
+    }
+
+    private static IServiceCollection AddAdminServices(this IServiceCollection services)
+    {
+        services.AddScoped<IAdminRepository, AdminRepository>();
+        services.AddScoped<AdminManagementService>();
 
         return services;
     }
